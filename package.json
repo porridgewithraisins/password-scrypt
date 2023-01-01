@@ -1,0 +1,32 @@
+{
+  "name": "password-scrypt",
+  "version": "1.0.0",
+  "description": "A password hashing/verifying wrapper around the native Node.js crypto module, no external dependencies/c++ addons.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "build": "tsc && cp package.json dist && cp README.md dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/porridgewithraisins/password-scrypt.git"
+  },
+  "keywords": [
+    "password",
+    "hashing",
+    "verification",
+    "auth",
+    "native",
+    "scrypt"
+  ],
+  "author": "Santhanam <santhanambr2002@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/porridgewithraisins/password-scrypt/issues"
+  },
+  "homepage": "https://github.com/porridgewithraisins/password-scrypt#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.4"
+  }
+}
